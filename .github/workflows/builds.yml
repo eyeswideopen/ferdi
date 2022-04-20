@@ -25,8 +25,6 @@ on:
       message:
         description: 'Message for build'
         required: true
-  schedule:
-    - cron: '15 0 * * *' # every night at 12:15 am (to allow for dependency builds to complete)
 
 env:
   USE_HARD_LINKS: false
